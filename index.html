@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr" style=" height:100%; ">
+<html lang="en" dir="ltr" style=" height:100%; max-width:100%;">
   <head>
-    <meta charset="utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Eat Voraciously</title>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet"/>
@@ -9,26 +9,64 @@
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
     <style>
-      /* desktop */
+      /* desktop MORE THAN OR EQUAL TO 960*/
       @media only screen and (min-width: 960px) {}
-      /* midsizes */
-      @media only screen and (max-width: 960px) {}
-      /* mobile */
-      @media only screen and (max-width: 600px) {}
+      /* midsizes LESS THAN 960*/
+      @media only screen and (max-width: 960px) {
+
+      }
+      /* mobile LESS THAN 600*/
+      @media only screen and (max-width: 600px) {
+        .bgImg {
+          max-width: 95%!important;
+          padding-left: 0!important;
+          padding-right: 0!important;
+        }
+        .cont700{
+          width: 100% !important;
+        }
+        .vLogoLeft{
+          display: none;
+        }
+        .vLogoRight {
+          width: 100%;
+          text-align: center;
+        }
+        .iconLinkLines{
+          padding-bottom: 5px;
+        }
+        .linkIcon{
+          width:10%;
+          display: inline-block;
+        }
+        .linkText{
+          width:80%;
+          padding-bottom: 20px;
+        }
+        .footer{
+          padding-left:20px!important;
+          padding-right: 20px!important;
+
+        }
+        .footer img {
+          width: 50% !important;
+        }
+
+      }
     </style>
   </head>
 
-  <body style="height: 100%; margin: 0 auto;">
+  <body style="height: 100%; max-width: 100%; margin: 0 auto; padding: 0; ">
     <!-- Start of htmlemail -->
-    <table  border="0" cellspacing="0" cellpadding="0" style="width: 100%;  height: 100%;  margin-top: 0; margin-bottom: 0; margin-right: auto; margin-left:auto;">
+    <table  border="0" cellspacing="0" cellpadding="0" style="max-width: 100%;  height: 100%; margin-top: 0; margin-bottom: 0; margin-right: auto; margin-left:auto;">
       <tr>
         <td>
           <!-- Start of light-grey-container -->
-          <table class="container" width="700"  align="center" cellspacing="0" cellpadding="0" border="0" style=" background-color: #E8E8E8;  max-width: 100%; height: 100%; margin-top: 0px; margin-bottom: 0px;">
+          <table class="container cont700" width="700" align="center" cellspacing="0" cellpadding="0" border="0" style=" background-color: #E8E8E8;   height: 100%; margin-top: 0px; margin-bottom: 0px;">
             <tr>
               <td>
                 <!-- Start of container -->
-                <table class="container" width="600" align="center" cellspacing="0" cellpadding="0" border="0"  style="  max-width: 100%;">
+                <table class="container cont600"  align="center" cellspacing="0" cellpadding="0" border="0"  style="  max-width: 600px;">
                   <!-- Start of TWO-SECTION-ROW SIGNUP-->
                   <tr>
                     <td>
@@ -81,7 +119,7 @@
                       <table class="across-banner tacos" width="100%" height="100%" align="center" cellspacing="0" cellpadding="0" border="0" style="padding: 0px 0px; background: white; margin-top: 0px; margin-bottom: 0px; ">
                         <tr>
                           <td>
-                            <img src="https://i.postimg.cc/02BfTMKm/tacos.png" alt="two tacos on grey plate" style="width: auto; height:100%; padding-right: 5px; padding-left: 30px; padding-top: 15px; padding-bottom: 15px; display:block;">
+                            <img src="https://i.postimg.cc/02BfTMKm/tacos.png" alt="two tacos on grey plate" class="bgImg" style="width: auto; height:100%; padding-right: 5px; padding-left: 5px; padding-top: 15px; padding-bottom: 15px; margin-right: auto; margin-left: auto; display:block;">
                           </td>
                         </tr>
                       </table>
@@ -193,7 +231,7 @@
                       </tr>
                       <tr>
                         <td>
-                          <img src="https://i.postimg.cc/8P54XBcN/cutting.png" alt="cutting board with chopped taco veggie ingredients on top" style="width: 95%; height:100%; margin-right: auto; margin-left: auto; padding-top: 10px; padding-bottom: 0px; display:block;">
+                          <img src="https://i.postimg.cc/8P54XBcN/cutting.png" alt="cutting board with chopped taco veggie ingredients on top" class="bgImg" style="width: 95%; height:100%; margin-right: auto; margin-left: auto; padding-top: 10px; padding-bottom: 0px; display:block;">
                           <p style="width: 93%; height:100%; margin-right: auto; margin-left: auto; margin-top: 8px; padding-top: 0px; padding-bottom: 15px; color: grey; font-size: 14px;">Photos by Rey Lopez for The Washington Post; food styling by Lisa Cherkasky for The Washington Post</p>
                         </td>
                       </tr>
@@ -358,37 +396,37 @@
 
                       <tr style="padding: 0px 0px; height: auto;">
 
-                        <td align="left" style="display:block; max-height: 30px; margin-left: 20px;">
-                          <img src="https://i.postimg.cc/bw5B9V97/tv.png" alt="tv drawing" style="text-align: center; margin-top: auto; margin-bottom: auto;  ">
-                          <span style=" display: inline-block;  color: #069; ">
+                        <td align="left" class="iconLinkLines" style="display:block; max-height: 30px; margin-left: 20px;">
+                          <img src="https://i.postimg.cc/bw5B9V97/tv.png" alt="tv drawing" class="linkIcon" style="text-align: center; margin-top: auto; margin-bottom: auto;  ">
+                          <span class="linkText" style=" display: inline-block;  color: #069; ">
                             <a href="#" style=" color: #069; text-decoration: none;   ">The very first two hours of MTV, on Aug. 1, 1981.</a>
                           </span>
                         </td>
 
-                        <td align="left" style="display:block; max-height: 30px;  margin-left: 20px;">
-                          <img  src="https://i.postimg.cc/J0R6zfRk/cherries.png" alt="cherries drawing" style="text-align: center; margin-top: auto; margin-bottom: auto;  ">
-                          <span style=" display: inline-block;  color: #069; ">
+                        <td align="left"  class="iconLinkLines" style="display:block; max-height: 30px;  margin-left: 20px;">
+                          <img  src="https://i.postimg.cc/J0R6zfRk/cherries.png" alt="cherries drawing" class="linkIcon" style="text-align: center; margin-top: auto; margin-bottom: auto;  ">
+                          <span class="linkText" style=" display: inline-block;  color: #069; ">
                             <a href="#" style=" color: #069; text-decoration: none;">Cherries jubilee.</a>
                           </span>
                         </td>
 
-                        <td align="left" style="display:block; max-height: 30px;  margin-left: 20px;">
-                          <img src="https://i.postimg.cc/qRsD0JHr/book.png" alt="book drawing" style="display:inline-block; text-align: center; margin-top: auto; margin-bottom: auto;  ">
-                          <span style=" display: inline-block;  color: #069; ">
+                        <td align="left"  class="iconLinkLines" style="display:block; max-height: 30px;  margin-left: 20px;">
+                          <img src="https://i.postimg.cc/qRsD0JHr/book.png" alt="book drawing" class="linkIcon" style="display:inline-block; text-align: center; margin-top: auto; margin-bottom: auto;  ">
+                          <span class="linkText" style=" display: inline-block;  color: #069; ">
                             <a href="#" style=" color: #069; text-decoration: none;">&#34;A New Indigenous-led Student Movement Is Protecting Sacred Waters&#34;</a>
                           </span>
                         </td>
 
-                        <td align="left" style="display:block; max-height: 30px;  margin-left: 20px;">
-                          <img src="https://i.postimg.cc/yd4pwJ5n/eyes.png" alt="eyes drawing" style="display:inline-block; text-align: center; margin-top: auto; margin-bottom: auto;  ">
-                          <span style=" display: inline-block;  color: #069; ">
+                        <td align="left" class="iconLinkLines"  style="display:block; max-height: 30px;  margin-left: 20px;">
+                          <img src="https://i.postimg.cc/yd4pwJ5n/eyes.png" alt="eyes drawing" class="linkIcon" style="display:inline-block; text-align: center; margin-top: auto; margin-bottom: auto;  ">
+                          <span class="linkText" style=" display: inline-block;  color: #069; ">
                             <a href="#" style=" color: #069; text-decoration: none;">Banana pudding, but with plantains!</a>
                           </span>
                         </td>
 
-                        <td align="left" style="display:block; max-height: 30px;  margin-left: 20px;">
-                          <img src="https://i.postimg.cc/jjJkg68L/speak.png" alt="side face drawing of person speaking" style="display:inline-block; text-align: center; margin-top: auto; margin-bottom: auto;  ">
-                          <p style=" display: inline-block;  text-decoration: none;">If you liked this newsletter, please forward it to a friend!</p>
+                        <td align="left" class="iconLinkLines" style="display:block; max-height: 30px;  margin-left: 20px;">
+                          <img src="https://i.postimg.cc/jjJkg68L/speak.png" alt="side face drawing of person speaking" class="linkIcon" style="display:inline-block; text-align: center; margin-top: auto; margin-bottom: auto;  ">
+                          <p class="linkText" style=" display: inline-block;  text-decoration: none;">If you liked this newsletter, please forward it to a friend!</p>
                         </td>
 
                       </tr>
@@ -473,10 +511,10 @@
                   <td>
                     <table class="two-section like-news" width="100%" height="100%" align="center" cellspacing="0" cellpadding="0" border="0" style="padding: 20px 20px; background: white; margin-top: 0px; margin-bottom: 0px; width: 100%; height:100%;">
                       <tr>
-                        <td align="center" style=" margin-right: auto; margin-left: auto; width: 25%;">
-                          <img src="https://i.postimg.cc/0NmcdkQS/vFood.png" alt="food in background with V inital in front of it">
+                        <td align="center" class="vLogoLeft" style=" margin-right: auto; margin-left: auto; width: 25%;">
+                          <img src="https://i.postimg.cc/0NmcdkQS/vFood.png" class="vFoodImg" alt="food in background with V inital in front of it">
                         </td>
-                        <td align="left" style="margin-right: auto; margin-left: auto; width:75%; ">
+                        <td align="left" class="vLogoRight" style="margin-right: auto; margin-left: auto; width:75%; ">
                           <h2 style="margin-bottom: 0px;">
                             We think you’ll like this newsletter
                           </h2>
